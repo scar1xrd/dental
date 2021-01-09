@@ -1,0 +1,66 @@
+//
+//  {{ module_info.file_name }}
+//  Dental
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import RxSwift
+import RxCocoa
+
+class {{ module_info.name }}ViewController: BaseViewController, View {
+    // MARK: Private properties
+    private let disposeBag: DisposeBag = .init()
+    private var viewModel: {{ module_info.name }}ViewModel!
+    
+    // MARK: UI
+    
+    deinit {
+        print("DEINIT \(self)")
+    }
+    
+    override func loadView() {
+        super.loadView()
+        let view = {{ module_info.name }}View()
+        self.view = view
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.configure()
+    }
+}
+
+// MARK: - VIEW MODEL INJECTABLE
+
+extension {{ module_info.name }}ViewController: ViewModelInjectable {
+    func set(viewModel: ViewModel) {
+        self.viewModel = viewModel as? {{ module_info.name }}ViewModel
+    }
+}
+
+// MARK: - CONFIGURATIONS
+
+private extension {{ module_info.name }}ViewController {
+    func configure() {
+        self.configureViews()
+        self.configureHandlers()
+        self.setupBindings()
+    }
+    
+    func setupBindings() {
+        self.viewModel.title.drive(self.rx.title).disposed(by: self.disposeBag)
+    }
+    
+    func configureViews() {
+        
+    }
+    
+    func configureHandlers() {
+        
+    }
+}
+

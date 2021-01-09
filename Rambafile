@@ -1,0 +1,23 @@
+### Headers settings
+company: Igor Sorokin
+
+### Xcode project settings
+project_name: Dental
+xcodeproj_path: Dental.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: Dental
+
+# The file path for new modules
+project_file_path: Dental/Presentation
+
+# The Xcode group path to new modules
+project_group_path: Dental/Presentation
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: mvvm, local: 'support/generamba templates/mvvm'}

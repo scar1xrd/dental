@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Dental
+
+  Created by Igor Sorokin on 08.12.2019.
+  Copyright © 2019 Igor Sorokin. All rights reserved.
+*/
+
+// MARK: - Commons
+"common.next" = "Далее";
+"common.accept" = "Подтвердить";
+"common.submit" = "Записаться";
+
+"error.description" = "Произошла ошибка.\nПопробуйте повторить позже.";
+"error.reload" = "Повторить";
+
+// MARK: - News
+"news.title" = "Новости";
+"newsDetails.title" = "";
+
+// MARK: - Reception
+"branches.title" = "Специальность";
+"branches.tabbarTitle" = "Запись";
+
+// MARK: - Dentists
+"dentists.title" = "Врачи";
+"dentist.aboutTitle" = "Достижения";
+"dentist.experienceTitle" = "Стаж и специализация";
+"dentist.educationTitle" = "Образование";
+"dentist.appointment" = "Выбрать время";
+"dentist.totalExprerience" = "Общий стаж: ";
+
+// MARK: - Form
+"form.name" = "Имя и фамилия";
+"form.bornDate" = "Возраст";
+"form.sex" = "Пол";
+"form.phone" = "Телефон";
+"form.phoneDesc" = "Телефон необходим для подтверждения записи";
+"form.successAppointmentReq" = "Вы успешно записаны!";
+"form.password" = "Пароль";
+
+"form.nameError" = "Некорректное имя";
+"form.phoneError" = "Некорректный номер телефона";
+"form.borndayError" = "Это поле не может быть пустым";
+"form.undefinedError" = "Неизвестная ошибка, попробуйте позже";
+"form.wrongFields" = "Неправильно введенные поля";
+"form.passwordError" = "Пароль должен быть не менее 8 символов";
+
+// MARK: - Unauth
+"unauth.registerDesc" = "Зарегистрируйтесь в приложение и вы сможете получить онлайн консультацию у любого из наших врачей бесплатно!\n";
+"unauth.haveAccount" = "Уже есть аккаунт? ";
+"unauth.login" = "Войти";
+"unauth.loginTitle" = "Вход";
+"unauth.register" = "Регистрация";
+
+// MARK: - Profile
+"profile.welcome" = "С возвращением!";
+"profile.appointment" = "Записи";
+"profile.exit" = "Выйти";
+"profile.favorites" = "Доктора";
+"profile.title" = "Профиль";

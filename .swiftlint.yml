@@ -1,0 +1,57 @@
+disabled_rules:
+  - trailing_whitespace
+  - switch_case_alignment
+  - type_body_length
+  - opening_brace
+  - unused_closure_parameter
+  - closure_end_indentation
+  - closure_parameter_position
+  
+opt_in_rules:
+  - closure_end_indentation
+  - nimble_operator
+  - vertical_parameter_alignment_on_call
+  
+analyzer_rules:
+  - unused_declaration
+  - unused_import
+
+force_try:
+ severity: warning
+  
+force_cast: warning
+empty_count: warning
+empty_xctest_method: warning
+large_tuple:
+ - 3
+ - 4
+line_length:
+ - 230
+ - 250
+function_body_length:
+ - 40
+ - 75
+variable_name_max_length:
+ - 20
+ - 30
+variable_name_min_length:
+ - 2
+ - 1
+file_length:
+ - 200
+ - 250
+closure_body_length:
+  - 20
+  - 40
+line_length: 
+  - 120
+  - 160
+identifier_name:
+  excluded:
+    - id
+    - x
+    - y
+    
+excluded:
+- Pods
+- Dental/PresentationSupport/Resources

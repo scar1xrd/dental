@@ -1,0 +1,1570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06032BA816EF3F4BED7982DC /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311B98452992CA7EE01438B /* TabBarViewModel.swift */; };
+		09490617F0D8B2F5EBFFE584 /* AppointmentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F33AC1548DD1C32A8FEE /* AppointmentFormView.swift */; };
+		0A09AC8D130248B85B83D603 /* DentistDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308B5F472EA0EB68A2895ECA /* DentistDetailsAssembly.swift */; };
+		0CA898BBFC862546C1565306 /* DentistsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C56C498AE7957F33711D24 /* DentistsAssembly.swift */; };
+		0DEBE857251B61141B9C815C /* DentistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DBC3C2F72491B2784BEB4 /* DentistsViewController.swift */; };
+		1CB53A56AD5A8E92653A7FDB /* BranchesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAAA8D9835458E7F32F2E86 /* BranchesAssembly.swift */; };
+		2EFC207321FD41C290B038CE /* DentistTimetableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794D12EDBA408983BEE3F77 /* DentistTimetableViewModel.swift */; };
+		2F5773F1D3BA61A08F0B33CD /* DentistsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291F88A1E31F7EEC5C29851C /* DentistsViewModel.swift */; };
+		358F865A2B381A91D6004B89 /* Pods_Dental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E96C191609CD6607E21752 /* Pods_Dental.framework */; };
+		4E015BF823C67AB8009444BF /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E015BF723C67AB8009444BF /* Paginator.swift */; };
+		4E015BFA23C67AE0009444BF /* AnyPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E015BF923C67AE0009444BF /* AnyPaginator.swift */; };
+		4E0D2DDE239D691C003FBB41 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DDD239D691C003FBB41 /* ApiError.swift */; };
+		4E0D2DE0239D7BF8003FBB41 /* Observable+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DDF239D7BF8003FBB41 /* Observable+extension.swift */; };
+		4E0D2DE2239D7C1F003FBB41 /* DataRequest+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DE1239D7C1F003FBB41 /* DataRequest+extension.swift */; };
+		4E0D2DE5239D7CA9003FBB41 /* SplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DE4239D7CA9003FBB41 /* SplashService.swift */; };
+		4E0D2DE7239D7D22003FBB41 /* ServicesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DE6239D7D22003FBB41 /* ServicesFactory.swift */; };
+		4E0D2DE9239D7D58003FBB41 /* RepositoriesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D2DE8239D7D58003FBB41 /* RepositoriesFactory.swift */; };
+		4E1AE2D123EFE58300A17405 /* DentistsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AE2D023EFE58300A17405 /* DentistsContentView.swift */; };
+		4E311AF723C375B20098AD15 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311AF623C375B20098AD15 /* News.swift */; };
+		4E311AF923C3778C0098AD15 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311AF823C3778C0098AD15 /* NewsService.swift */; };
+		4E311AFD23C37B860098AD15 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311AFC23C37B860098AD15 /* NewsTableViewCell.swift */; };
+		4E311B0023C37DA70098AD15 /* SLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311AFF23C37DA70098AD15 /* SLabel.swift */; };
+		4E311B0423C37E350098AD15 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311B0323C37E350098AD15 /* TextStyle.swift */; };
+		4E311B0623C37E7F0098AD15 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311B0523C37E7F0098AD15 /* Colors.swift */; };
+		4E311B0823C37F220098AD15 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311B0723C37F220098AD15 /* UIColor+extension.swift */; };
+		4E311B0A23C37F810098AD15 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311B0923C37F810098AD15 /* Fonts.swift */; };
+		4E311B0E23C394F60098AD15 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E311B0D23C394F60098AD15 /* UIView+extension.swift */; };
+		4E357871239D5BCE008969A2 /* ExternalRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E357870239D5BCE008969A2 /* ExternalRepositoryImp.swift */; };
+		4E3581B323A52F770093CBD5 /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3581B223A52F770093CBD5 /* SplashModel.swift */; };
+		4E3B441D2427810100CCC03B /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B441C2427810100CCC03B /* Mapper.swift */; };
+		4E3B441F2427810B00CCC03B /* MapperImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B441E2427810B00CCC03B /* MapperImp.swift */; };
+		4E3B4421242791D600CCC03B /* DownloadRequest+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4420242791D600CCC03B /* DownloadRequest+extension.swift */; };
+		4E3B44262427A42300CCC03B /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B44252427A42300CCC03B /* UIImageView+extension.swift */; };
+		4E3B44282427A80C00CCC03B /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B44272427A80C00CCC03B /* CategoryButton.swift */; };
+		4E41DA7E2453662D00BA12DA /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41DA7D2453662D00BA12DA /* ProfileRow.swift */; };
+		4E480B3423B7EC6200CACCA7 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E480B3323B7EC6200CACCA7 /* URLBuilder.swift */; };
+		4E482EE1240BB14F00256EF2 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E482EE0240BB14F00256EF2 /* BaseNavigationController.swift */; };
+		4E482EEF240BCEA100256EF2 /* ExternalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E482EEE240BCEA100256EF2 /* ExternalRepository.swift */; };
+		4E482EF1240BCEE100256EF2 /* InternalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E482EF0240BCEE100256EF2 /* InternalRepository.swift */; };
+		4E482EF5240BD54F00256EF2 /* UserDefaults+InternalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E482EF4240BD54F00256EF2 /* UserDefaults+InternalRepository.swift */; };
+		4E4FFE6D2403F13F00EF8C0C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE6C2403F13F00EF8C0C /* Validator.swift */; };
+		4E4FFE6F2403F16E00EF8C0C /* EmptyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE6E2403F16E00EF8C0C /* EmptyValidator.swift */; };
+		4E4FFE712403F19200EF8C0C /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE702403F19200EF8C0C /* PhoneValidator.swift */; };
+		4E4FFE732403F1AF00EF8C0C /* ValidatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE722403F1AF00EF8C0C /* ValidatorsFactory.swift */; };
+		4E4FFE79240417FD00EF8C0C /* TFMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE78240417FD00EF8C0C /* TFMask.swift */; };
+		4E4FFE7B240418CE00EF8C0C /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FFE7A240418CE00EF8C0C /* String+extension.swift */; };
+		4E56FA8A245358C600E793BC /* TabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56FA89245358C600E793BC /* TabBarAssembly.swift */; };
+		4E56FA9724535AB300E793BC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56FA9624535AB300E793BC /* TabBarViewController.swift */; };
+		4E66B95123D4A594007C330B /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66B95023D4A594007C330B /* CellView.swift */; };
+		4E6AD5A523F93AA9002CA077 /* CellSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5A423F93AA9002CA077 /* CellSeparatorView.swift */; };
+		4E6AD5A723F93BE3002CA077 /* TitleDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5A623F93BE3002CA077 /* TitleDescView.swift */; };
+		4E6AD5A923F93D74002CA077 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5A823F93D74002CA077 /* CategoriesView.swift */; };
+		4E6AD5AB23F964AC002CA077 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5AA23F964AC002CA077 /* BackButton.swift */; };
+		4E6AD5B023F97182002CA077 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5AF23F97182002CA077 /* FillButton.swift */; };
+		4E6AD5B223F97484002CA077 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5B123F97484002CA077 /* GradientView.swift */; };
+		4E6AD5B423F97BC6002CA077 /* DentistTimetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5B323F97BC6002CA077 /* DentistTimetable.swift */; };
+		4E6AD5B623F9805D002CA077 /* DateFormatter+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5B523F9805D002CA077 /* DateFormatter+extension.swift */; };
+		4E6AD5B823F9839B002CA077 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5B723F9839B002CA077 /* TimeView.swift */; };
+		4E6AD5BA23F984EE002CA077 /* DateCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5B923F984EE002CA077 /* DateCollectionReusableView.swift */; };
+		4E6AD5C623F98FA9002CA077 /* FloatingPanelViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5C523F98FA9002CA077 /* FloatingPanelViewController+extension.swift */; };
+		4E6AD5C823F992FF002CA077 /* TimetablePanelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5C723F992FF002CA077 /* TimetablePanelAssembly.swift */; };
+		4E6AD5CB23F99443002CA077 /* TimetablePanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5CA23F99443002CA077 /* TimetablePanelController.swift */; };
+		4E6AD5CD23F9984B002CA077 /* DentistTimetableAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5CC23F9984B002CA077 /* DentistTimetableAssembly.swift */; };
+		4E6AD5CF23F99FE2002CA077 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5CE23F99FE2002CA077 /* ErrorManager.swift */; };
+		4E6AD5D123F9A9A3002CA077 /* TimetablePanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AD5D023F9A9A3002CA077 /* TimetablePanelLayout.swift */; };
+		4E7BB5E2239CFCE300393929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BB5E1239CFCE300393929 /* AppDelegate.swift */; };
+		4E7BB5EB239CFCE800393929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BB5EA239CFCE800393929 /* Assets.xcassets */; };
+		4E7BB5EE239CFCE800393929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BB5EC239CFCE800393929 /* LaunchScreen.storyboard */; };
+		4E8CB4B723C366EE0046EDB5 /* FilledTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CB4B623C366EE0046EDB5 /* FilledTableView.swift */; };
+		4E8CB4B923C36F270046EDB5 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CB4B823C36F270046EDB5 /* TableViewAdapter.swift */; };
+		4E8CB4BB23C370F40046EDB5 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CB4BA23C370F40046EDB5 /* UITableView+extension.swift */; };
+		4E92BAF8239D026C00312795 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E92BAF7239D026C00312795 /* Localizable.strings */; };
+		4E92BAFF239D038600312795 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92BAFC239D038600312795 /* Assets.swift */; };
+		4E92BB00239D038600312795 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92BAFD239D038600312795 /* L10n.swift */; };
+		4E92CBEB23C4B80A00AC8318 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92CBEA23C4B80A00AC8318 /* ErrorView.swift */; };
+		4E92CBEE23C4B88C00AC8318 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92CBED23C4B88C00AC8318 /* BorderButton.swift */; };
+		4E92CE7823C4DFFC00AC8318 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92CE7723C4DFFC00AC8318 /* Page.swift */; };
+		4E92CE7B23C4F5A400AC8318 /* PaginatorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92CE7A23C4F5A400AC8318 /* PaginatorImp.swift */; };
+		4E9F987C23CA2D990089EDE5 /* Action+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F987B23CA2D990089EDE5 /* Action+extension.swift */; };
+		4E9F987E23CA5E6C0089EDE5 /* NewsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F987D23CA5E6C0089EDE5 /* NewsDetailsView.swift */; };
+		4EA175A823CB1252003D915D /* ContentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175A723CB1252003D915D /* ContentTextView.swift */; };
+		4EA175AA23CB1C4D003D915D /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175A923CB1C4D003D915D /* LabelStyle.swift */; };
+		4EA175AF23CB3931003D915D /* NewsDetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175AE23CB3931003D915D /* NewsDetailsContentView.swift */; };
+		4EA175B323CB3BB3003D915D /* BlurHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175B223CB3BB3003D915D /* BlurHeaderView.swift */; };
+		4EA175B723CB3CE0003D915D /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175B623CB3CE0003D915D /* GenericCollectionViewCell.swift */; };
+		4EA175BA23CB3F92003D915D /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175B923CB3F92003D915D /* StretchyHeaderLayout.swift */; };
+		4EA175BC23CB4A82003D915D /* CollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175BB23CB4A82003D915D /* CollectionViewAdapter.swift */; };
+		4EA175BE23CB4B48003D915D /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA175BD23CB4B48003D915D /* UICollectionView+extension.swift */; };
+		4EA5FE3D239D166E005CA9E4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FE3C239D166E005CA9E4 /* Router.swift */; };
+		4EA5FE3F239D16D2005CA9E4 /* RootRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FE3E239D16D2005CA9E4 /* RootRoutable.swift */; };
+		4EA5FE41239D17DD005CA9E4 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FE40239D17DD005CA9E4 /* Routable.swift */; };
+		4EA5FE44239D1A6C005CA9E4 /* RoutingItemsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FE43239D1A6C005CA9E4 /* RoutingItemsFactory.swift */; };
+		4EA5FE46239D1AAA005CA9E4 /* RoutingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5FE45239D1AAA005CA9E4 /* RoutingItem.swift */; };
+		4EA7302624011E9D00F6F6B6 /* MTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302324011E9C00F6F6B6 /* MTextField.swift */; };
+		4EA7302724011E9D00F6F6B6 /* StyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302424011E9C00F6F6B6 /* StyledTextField.swift */; };
+		4EA7302824011E9D00F6F6B6 /* MTextFieldBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302524011E9D00F6F6B6 /* MTextFieldBox.swift */; };
+		4EA7302C2401228500F6F6B6 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302B2401228500F6F6B6 /* FormTextField.swift */; };
+		4EA7302E2401330E00F6F6B6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302D2401330E00F6F6B6 /* FormView.swift */; };
+		4EA7303024013BE100F6F6B6 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7302F24013BE100F6F6B6 /* CloseButton.swift */; };
+		4EA7303A240169EB00F6F6B6 /* FormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA73039240169EB00F6F6B6 /* FormError.swift */; };
+		4EADD2A123E5E3BA00B23D62 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADD2A023E5E3BA00B23D62 /* TableViewController.swift */; };
+		4EADD2A323E5E72C00B23D62 /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADD2A223E5E72C00B23D62 /* GenericTableViewCell.swift */; };
+		4EADD2A623E5E7BB00B23D62 /* BranchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EADD2A523E5E7BB00B23D62 /* BranchContentView.swift */; };
+		4EB846EC241D057C00266F14 /* FontsFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB846EB241D057C00266F14 /* FontsFamily.swift */; };
+		4EC21E5923EEE8F6002B3787 /* PaginatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC21E5823EEE8F6002B3787 /* PaginatorFactory.swift */; };
+		4EC21E5D23EF2C96002B3787 /* AddressDentists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC21E5C23EF2C96002B3787 /* AddressDentists.swift */; };
+		4EC21E5F23EF2CBF002B3787 /* Dentist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC21E5E23EF2CBF002B3787 /* Dentist.swift */; };
+		4EC21E6B23EF5B90002B3787 /* AddressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC21E6A23EF5B90002B3787 /* AddressHeaderView.swift */; };
+		4EC7D5FA23EDEE3C00C3A5DF /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7D5F923EDEE3C00C3A5DF /* Branch.swift */; };
+		4EC7D5FC23EDEED400C3A5DF /* ReceptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7D5FB23EDEED400C3A5DF /* ReceptionService.swift */; };
+		4ECCA6FF239D1C61005A1753 /* RoutingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA6FE239D1C61005A1753 /* RoutingItems.swift */; };
+		4ECCA703239D2236005A1753 /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA702239D2236005A1753 /* UIViewController+extension.swift */; };
+		4ECCA706239D2449005A1753 /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA705239D2449005A1753 /* EntryPoint.swift */; };
+		4ECCA709239D24A1005A1753 /* InfrastructureAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA708239D24A1005A1753 /* InfrastructureAssembly.swift */; };
+		4ECCA70C239D2721005A1753 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA70B239D2721005A1753 /* SplashViewController.swift */; };
+		4ECCA70F239D2A01005A1753 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA70E239D2A01005A1753 /* BaseViewController.swift */; };
+		4ECCA711239D2A65005A1753 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA710239D2A65005A1753 /* SplashViewModel.swift */; };
+		4ECCA713239D2BC6005A1753 /* DI+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA712239D2BC6005A1753 /* DI+Utils.swift */; };
+		4ECCA715239D2DA9005A1753 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCA714239D2DA9005A1753 /* SplashAssembly.swift */; };
+		4ECCA719239D4783005A1753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECCA718239D4783005A1753 /* Main.storyboard */; };
+		4ED2D9C82438A86F00466079 /* AppointmentFormPickerViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2D9C72438A86F00466079 /* AppointmentFormPickerViewAdapter.swift */; };
+		4ED2D9D02438C32F00466079 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED2D9CF2438C32E00466079 /* news.json */; };
+		4EE7B48F23C344BB004832F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7B48E23C344BB004832F8 /* Constants.swift */; };
+		4EEEC77D24378F9000C40714 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEC77C24378F9000C40714 /* main.swift */; };
+		4EF33E582413DE4500E544A3 /* NameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF33E572413DE4500E544A3 /* NameValidator.swift */; };
+		4EF33E5A2413E24500E544A3 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF33E592413E24500E544A3 /* PasswordValidator.swift */; };
+		4EF33E60241426D500E544A3 /* RowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF33E5F241426D500E544A3 /* RowButton.swift */; };
+		4EF6F744244B4F4D00376334 /* branches.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6F743244B4F4D00376334 /* branches.json */; };
+		4EF6F746244B507200376334 /* dentists.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6F745244B507200376334 /* dentists.json */; };
+		4EF6F748244B528B00376334 /* timetable.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EF6F747244B528B00376334 /* timetable.json */; };
+		4EF6F74A244B52F000376334 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6F749244B52F000376334 /* MockRepository.swift */; };
+		4EF6F74F244B537400376334 /* MockRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6F74E244B537400376334 /* MockRepositoryImp.swift */; };
+		4EF6F755244B5C8200376334 /* MockNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6F754244B5C8200376334 /* MockNewsService.swift */; };
+		4EF6F757244B5D5000376334 /* MockReceptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6F756244B5D5000376334 /* MockReceptionService.swift */; };
+		51BE8CD8CF4730B4F2107994 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405996621D03D023A8B13CB /* NewsViewModel.swift */; };
+		5590EBE060EDF475E8A7F89F /* DentistDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547199574A49CED26ADDA4B1 /* DentistDetailsViewModel.swift */; };
+		59AAC2F9D24CDAFEB0B3A075 /* DentistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3219F2E1D1C2C695D3E4B392 /* DentistDetailsViewController.swift */; };
+		5D08CE451D9194DE767C06AE /* NewsDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FB81D87111DD8529BCB36 /* NewsDetailsViewModel.swift */; };
+		7FC512666C4D39C255922502 /* AppointmentFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747D0FA1DBA22F29EBE57D0 /* AppointmentFormViewModel.swift */; };
+		9BF7068508DBB56409C4778C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32F00619C947F598AC91128 /* NewsViewController.swift */; };
+		AA2C8C4233BA8D1D4196438F /* DentistTimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C19289D4769113DCEF8B44 /* DentistTimetableViewController.swift */; };
+		AF04FD72B46D189B177B3CFA /* AppointmentFormAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7E9D31BC235FCCF9D6B0A /* AppointmentFormAssembly.swift */; };
+		AF1078995CFDF6012EAC4FF9 /* BranchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E5EC4DEDC5CA0AC7494F7 /* BranchesViewModel.swift */; };
+		CB93FD515E9172569FA9D995 /* AppointmentFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D5ED6DF9C7856DF4EB32F /* AppointmentFormViewController.swift */; };
+		CBE66BC59CCF01AA79BD63FD /* DentistTimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CFED07E98C017F59612333 /* DentistTimetableView.swift */; };
+		D9ADB7ED09732EBBCBED747E /* NewsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC56114E345F96576AAB41 /* NewsAssembly.swift */; };
+		E1F1E1A286C1940D0CE42A5B /* DentistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D05BAB7A2D473C87EE2F0F /* DentistDetailsView.swift */; };
+		FB755F6EE04161FFDFC22E15 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A5320DF013EB0337BEEA6 /* NewsDetailsViewController.swift */; };
+		FCCF66DDF00FBB0DF670CC0F /* NewsDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3904EF0EE0E48AD6688E88 /* NewsDetailsAssembly.swift */; };
+		FF48961FDDA006A116EEE5A5 /* BranchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431A1E3A3D8EEA2F4D9F4C8 /* BranchesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0311B98452992CA7EE01438B /* TabBarViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		0F1A5320DF013EB0337BEEA6 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		1A5E5EC4DEDC5CA0AC7494F7 /* BranchesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BranchesViewModel.swift; sourceTree = "<group>"; };
+		1AB7E9D31BC235FCCF9D6B0A /* AppointmentFormAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentFormAssembly.swift; sourceTree = "<group>"; };
+		291F88A1E31F7EEC5C29851C /* DentistsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistsViewModel.swift; sourceTree = "<group>"; };
+		2D3904EF0EE0E48AD6688E88 /* NewsDetailsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsDetailsAssembly.swift; sourceTree = "<group>"; };
+		2E93A37CEE6157E7197A01ED /* Pods-Dental.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental.mock.xcconfig"; path = "Target Support Files/Pods-Dental/Pods-Dental.mock.xcconfig"; sourceTree = "<group>"; };
+		308B5F472EA0EB68A2895ECA /* DentistDetailsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistDetailsAssembly.swift; sourceTree = "<group>"; };
+		3219F2E1D1C2C695D3E4B392 /* DentistDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistDetailsViewController.swift; sourceTree = "<group>"; };
+		3431A1E3A3D8EEA2F4D9F4C8 /* BranchesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BranchesViewController.swift; sourceTree = "<group>"; };
+		3794D12EDBA408983BEE3F77 /* DentistTimetableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistTimetableViewModel.swift; sourceTree = "<group>"; };
+		38E96C191609CD6607E21752 /* Pods_Dental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D735152F1C6D21CA451F243 /* Pods-Dental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental.debug.xcconfig"; path = "Target Support Files/Pods-Dental/Pods-Dental.debug.xcconfig"; sourceTree = "<group>"; };
+		41C56C498AE7957F33711D24 /* DentistsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistsAssembly.swift; sourceTree = "<group>"; };
+		4DAAA8D9835458E7F32F2E86 /* BranchesAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BranchesAssembly.swift; sourceTree = "<group>"; };
+		4E015BF723C67AB8009444BF /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
+		4E015BF923C67AE0009444BF /* AnyPaginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPaginator.swift; sourceTree = "<group>"; };
+		4E0D2DDD239D691C003FBB41 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		4E0D2DDF239D7BF8003FBB41 /* Observable+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+extension.swift"; sourceTree = "<group>"; };
+		4E0D2DE1239D7C1F003FBB41 /* DataRequest+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataRequest+extension.swift"; sourceTree = "<group>"; };
+		4E0D2DE4239D7CA9003FBB41 /* SplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashService.swift; sourceTree = "<group>"; };
+		4E0D2DE6239D7D22003FBB41 /* ServicesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesFactory.swift; sourceTree = "<group>"; };
+		4E0D2DE8239D7D58003FBB41 /* RepositoriesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesFactory.swift; sourceTree = "<group>"; };
+		4E1AE2D023EFE58300A17405 /* DentistsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentistsContentView.swift; sourceTree = "<group>"; };
+		4E311AF623C375B20098AD15 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		4E311AF823C3778C0098AD15 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		4E311AFC23C37B860098AD15 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		4E311AFF23C37DA70098AD15 /* SLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLabel.swift; sourceTree = "<group>"; };
+		4E311B0323C37E350098AD15 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		4E311B0523C37E7F0098AD15 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4E311B0723C37F220098AD15 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		4E311B0923C37F810098AD15 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		4E311B0D23C394F60098AD15 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		4E357870239D5BCE008969A2 /* ExternalRepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalRepositoryImp.swift; sourceTree = "<group>"; };
+		4E3581B223A52F770093CBD5 /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
+		4E3B441C2427810100CCC03B /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		4E3B441E2427810B00CCC03B /* MapperImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperImp.swift; sourceTree = "<group>"; };
+		4E3B4420242791D600CCC03B /* DownloadRequest+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DownloadRequest+extension.swift"; sourceTree = "<group>"; };
+		4E3B44252427A42300CCC03B /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		4E3B44272427A80C00CCC03B /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		4E41DA7D2453662D00BA12DA /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
+		4E480B3323B7EC6200CACCA7 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		4E482EE0240BB14F00256EF2 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		4E482EEE240BCEA100256EF2 /* ExternalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalRepository.swift; sourceTree = "<group>"; };
+		4E482EF0240BCEE100256EF2 /* InternalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalRepository.swift; sourceTree = "<group>"; };
+		4E482EF4240BD54F00256EF2 /* UserDefaults+InternalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+InternalRepository.swift"; sourceTree = "<group>"; };
+		4E4FFE6C2403F13F00EF8C0C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		4E4FFE6E2403F16E00EF8C0C /* EmptyValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyValidator.swift; sourceTree = "<group>"; };
+		4E4FFE702403F19200EF8C0C /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		4E4FFE722403F1AF00EF8C0C /* ValidatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorsFactory.swift; sourceTree = "<group>"; };
+		4E4FFE78240417FD00EF8C0C /* TFMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFMask.swift; sourceTree = "<group>"; };
+		4E4FFE7A240418CE00EF8C0C /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		4E56FA89245358C600E793BC /* TabBarAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAssembly.swift; sourceTree = "<group>"; };
+		4E56FA9624535AB300E793BC /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4E66B95023D4A594007C330B /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		4E6AD5A423F93AA9002CA077 /* CellSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSeparatorView.swift; sourceTree = "<group>"; };
+		4E6AD5A623F93BE3002CA077 /* TitleDescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDescView.swift; sourceTree = "<group>"; };
+		4E6AD5A823F93D74002CA077 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		4E6AD5AA23F964AC002CA077 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		4E6AD5AF23F97182002CA077 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
+		4E6AD5B123F97484002CA077 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4E6AD5B323F97BC6002CA077 /* DentistTimetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentistTimetable.swift; sourceTree = "<group>"; };
+		4E6AD5B523F9805D002CA077 /* DateFormatter+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extension.swift"; sourceTree = "<group>"; };
+		4E6AD5B723F9839B002CA077 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		4E6AD5B923F984EE002CA077 /* DateCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionReusableView.swift; sourceTree = "<group>"; };
+		4E6AD5C523F98FA9002CA077 /* FloatingPanelViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPanelViewController+extension.swift"; sourceTree = "<group>"; };
+		4E6AD5C723F992FF002CA077 /* TimetablePanelAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablePanelAssembly.swift; sourceTree = "<group>"; };
+		4E6AD5CA23F99443002CA077 /* TimetablePanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablePanelController.swift; sourceTree = "<group>"; };
+		4E6AD5CC23F9984B002CA077 /* DentistTimetableAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DentistTimetableAssembly.swift; sourceTree = "<group>"; };
+		4E6AD5CE23F99FE2002CA077 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		4E6AD5D023F9A9A3002CA077 /* TimetablePanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablePanelLayout.swift; sourceTree = "<group>"; };
+		4E7BB5DE239CFCE300393929 /* Dental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7BB5E1239CFCE300393929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E7BB5EA239CFCE800393929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7BB5ED239CFCE800393929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E7BB5EF239CFCE800393929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8CB4B623C366EE0046EDB5 /* FilledTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledTableView.swift; sourceTree = "<group>"; };
+		4E8CB4B823C36F270046EDB5 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		4E8CB4BA23C370F40046EDB5 /* UITableView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
+		4E92BAF7239D026C00312795 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4E92BAFC239D038600312795 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		4E92BAFD239D038600312795 /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		4E92CBEA23C4B80A00AC8318 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		4E92CBED23C4B88C00AC8318 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		4E92CE7723C4DFFC00AC8318 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		4E92CE7A23C4F5A400AC8318 /* PaginatorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatorImp.swift; sourceTree = "<group>"; };
+		4E9F987B23CA2D990089EDE5 /* Action+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Action+extension.swift"; sourceTree = "<group>"; };
+		4E9F987D23CA5E6C0089EDE5 /* NewsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsView.swift; sourceTree = "<group>"; };
+		4EA175A723CB1252003D915D /* ContentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTextView.swift; sourceTree = "<group>"; };
+		4EA175A923CB1C4D003D915D /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		4EA175AE23CB3931003D915D /* NewsDetailsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsContentView.swift; sourceTree = "<group>"; };
+		4EA175B223CB3BB3003D915D /* BlurHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHeaderView.swift; sourceTree = "<group>"; };
+		4EA175B623CB3CE0003D915D /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EA175B923CB3F92003D915D /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
+		4EA175BB23CB4A82003D915D /* CollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewAdapter.swift; sourceTree = "<group>"; };
+		4EA175BD23CB4B48003D915D /* UICollectionView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
+		4EA5FE3C239D166E005CA9E4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4EA5FE3E239D16D2005CA9E4 /* RootRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRoutable.swift; sourceTree = "<group>"; };
+		4EA5FE40239D17DD005CA9E4 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		4EA5FE43239D1A6C005CA9E4 /* RoutingItemsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingItemsFactory.swift; sourceTree = "<group>"; };
+		4EA5FE45239D1AAA005CA9E4 /* RoutingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingItem.swift; sourceTree = "<group>"; };
+		4EA7302324011E9C00F6F6B6 /* MTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTextField.swift; sourceTree = "<group>"; };
+		4EA7302424011E9C00F6F6B6 /* StyledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledTextField.swift; sourceTree = "<group>"; };
+		4EA7302524011E9D00F6F6B6 /* MTextFieldBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTextFieldBox.swift; sourceTree = "<group>"; };
+		4EA7302B2401228500F6F6B6 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		4EA7302D2401330E00F6F6B6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		4EA7302F24013BE100F6F6B6 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		4EA73039240169EB00F6F6B6 /* FormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormError.swift; sourceTree = "<group>"; };
+		4EADD2A023E5E3BA00B23D62 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4EADD2A223E5E72C00B23D62 /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		4EADD2A523E5E7BB00B23D62 /* BranchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchContentView.swift; sourceTree = "<group>"; };
+		4EB846EB241D057C00266F14 /* FontsFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsFamily.swift; sourceTree = "<group>"; };
+		4EC21E5823EEE8F6002B3787 /* PaginatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatorFactory.swift; sourceTree = "<group>"; };
+		4EC21E5C23EF2C96002B3787 /* AddressDentists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDentists.swift; sourceTree = "<group>"; };
+		4EC21E5E23EF2CBF002B3787 /* Dentist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dentist.swift; sourceTree = "<group>"; };
+		4EC21E6A23EF5B90002B3787 /* AddressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressHeaderView.swift; sourceTree = "<group>"; };
+		4EC7D5F923EDEE3C00C3A5DF /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		4EC7D5FB23EDEED400C3A5DF /* ReceptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptionService.swift; sourceTree = "<group>"; };
+		4ECCA6FE239D1C61005A1753 /* RoutingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingItems.swift; sourceTree = "<group>"; };
+		4ECCA702239D2236005A1753 /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		4ECCA705239D2449005A1753 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
+		4ECCA708239D24A1005A1753 /* InfrastructureAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureAssembly.swift; sourceTree = "<group>"; };
+		4ECCA70B239D2721005A1753 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4ECCA70E239D2A01005A1753 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4ECCA710239D2A65005A1753 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		4ECCA712239D2BC6005A1753 /* DI+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DI+Utils.swift"; sourceTree = "<group>"; };
+		4ECCA714239D2DA9005A1753 /* SplashAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
+		4ECCA718239D4783005A1753 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4ED2D9C72438A86F00466079 /* AppointmentFormPickerViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentFormPickerViewAdapter.swift; sourceTree = "<group>"; };
+		4ED2D9CF2438C32E00466079 /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		4EE7B48E23C344BB004832F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EEEC77C24378F9000C40714 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4EF33E572413DE4500E544A3 /* NameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameValidator.swift; sourceTree = "<group>"; };
+		4EF33E592413E24500E544A3 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		4EF33E5F241426D500E544A3 /* RowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowButton.swift; sourceTree = "<group>"; };
+		4EF6F743244B4F4D00376334 /* branches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = branches.json; sourceTree = "<group>"; };
+		4EF6F745244B507200376334 /* dentists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dentists.json; sourceTree = "<group>"; };
+		4EF6F747244B528B00376334 /* timetable.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = timetable.json; sourceTree = "<group>"; };
+		4EF6F749244B52F000376334 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		4EF6F74E244B537400376334 /* MockRepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepositoryImp.swift; sourceTree = "<group>"; };
+		4EF6F754244B5C8200376334 /* MockNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsService.swift; sourceTree = "<group>"; };
+		4EF6F756244B5D5000376334 /* MockReceptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReceptionService.swift; sourceTree = "<group>"; };
+		547199574A49CED26ADDA4B1 /* DentistDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistDetailsViewModel.swift; sourceTree = "<group>"; };
+		605DBC3C2F72491B2784BEB4 /* DentistsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistsViewController.swift; sourceTree = "<group>"; };
+		6405996621D03D023A8B13CB /* NewsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		6747D0FA1DBA22F29EBE57D0 /* AppointmentFormViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentFormViewModel.swift; sourceTree = "<group>"; };
+		70AC56114E345F96576AAB41 /* NewsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsAssembly.swift; sourceTree = "<group>"; };
+		A5C19289D4769113DCEF8B44 /* DentistTimetableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistTimetableViewController.swift; sourceTree = "<group>"; };
+		A9F9F33AC1548DD1C32A8FEE /* AppointmentFormView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentFormView.swift; sourceTree = "<group>"; };
+		B32F00619C947F598AC91128 /* NewsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C0D05BAB7A2D473C87EE2F0F /* DentistDetailsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistDetailsView.swift; sourceTree = "<group>"; };
+		C2CFED07E98C017F59612333 /* DentistTimetableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DentistTimetableView.swift; sourceTree = "<group>"; };
+		D570AB796828C2445A38BF7F /* Pods-Dental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dental.release.xcconfig"; path = "Target Support Files/Pods-Dental/Pods-Dental.release.xcconfig"; sourceTree = "<group>"; };
+		DF2D5ED6DF9C7856DF4EB32F /* AppointmentFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppointmentFormViewController.swift; sourceTree = "<group>"; };
+		E61FB81D87111DD8529BCB36 /* NewsDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7BB5DB239CFCE300393929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F865A2B381A91D6004B89 /* Pods_Dental.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D467B8DED78FFAF5ED36619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E96C191609CD6607E21752 /* Pods_Dental.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E0D2DDA239D627F003FBB41 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D2DDD239D691C003FBB41 /* ApiError.swift */,
+				4E6AD5CE23F99FE2002CA077 /* ErrorManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4E0D2DE3239D7C96003FBB41 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6F753244B5C6900376334 /* Mock */,
+				4EF6F752244B5C5500376334 /* External */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4E311AFA23C37B720098AD15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E66B95023D4A594007C330B /* CellView.swift */,
+				4EA7302224011E8700F6F6B6 /* TextFields */,
+				4EA175B423CB3CA2003D915D /* CollectionViews */,
+				4EA175A623CB123C003D915D /* UITextViews */,
+				4E92CBEC23C4B87800AC8318 /* Buttons */,
+				4E92CBE923C4B7FD00AC8318 /* Views */,
+				4E311AFE23C37D7D0098AD15 /* Labels */,
+				4E311AFB23C37B750098AD15 /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E311AFB23C37B750098AD15 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4EC21E6923EF5B77002B3787 /* TableViewHeaderFooterView */,
+				4EC21E6823EF5B62002B3787 /* TableViewCells */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		4E311AFE23C37D7D0098AD15 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				4E311AFF23C37DA70098AD15 /* SLabel.swift */,
+				4E311B0323C37E350098AD15 /* TextStyle.swift */,
+				4EA175A923CB1C4D003D915D /* LabelStyle.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		4E357872239D5BD4008969A2 /* ExternalRepository */ = {
+			isa = PBXGroup;
+			children = (
+				4E482EEE240BCEA100256EF2 /* ExternalRepository.swift */,
+				4E357870239D5BCE008969A2 /* ExternalRepositoryImp.swift */,
+			);
+			path = ExternalRepository;
+			sourceTree = "<group>";
+		};
+		4E3581B123A52F660093CBD5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4E3581B223A52F770093CBD5 /* SplashModel.swift */,
+				4E311AF623C375B20098AD15 /* News.swift */,
+				4E92CE7723C4DFFC00AC8318 /* Page.swift */,
+				4EC7D5F923EDEE3C00C3A5DF /* Branch.swift */,
+				4EC21E5C23EF2C96002B3787 /* AddressDentists.swift */,
+				4EC21E5E23EF2CBF002B3787 /* Dentist.swift */,
+				4E6AD5B323F97BC6002CA077 /* DentistTimetable.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4E3B441B242780F300CCC03B /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B441C2427810100CCC03B /* Mapper.swift */,
+				4E3B441E2427810B00CCC03B /* MapperImp.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		4E480B3223B7EC5400CACCA7 /* URLBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				4E480B3323B7EC6200CACCA7 /* URLBuilder.swift */,
+			);
+			path = URLBuilder;
+			sourceTree = "<group>";
+		};
+		4E482EEB240BCE6A00256EF2 /* InternalRepository */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6F74D244B536100376334 /* Mock */,
+				4EF6F74B244B535100376334 /* Internal */,
+			);
+			path = InternalRepository;
+			sourceTree = "<group>";
+		};
+		4E482EFE240BF42500256EF2 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				4EA7302D2401330E00F6F6B6 /* FormView.swift */,
+				4EA73039240169EB00F6F6B6 /* FormError.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		4E4FFE6B2403F12400EF8C0C /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FFE6C2403F13F00EF8C0C /* Validator.swift */,
+				4E4FFE6E2403F16E00EF8C0C /* EmptyValidator.swift */,
+				4E4FFE702403F19200EF8C0C /* PhoneValidator.swift */,
+				4EF33E572413DE4500E544A3 /* NameValidator.swift */,
+				4EF33E592413E24500E544A3 /* PasswordValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		4E6AD5C923F99306002CA077 /* Content Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFED07E98C017F59612333 /* DentistTimetableView.swift */,
+				A5C19289D4769113DCEF8B44 /* DentistTimetableViewController.swift */,
+				3794D12EDBA408983BEE3F77 /* DentistTimetableViewModel.swift */,
+				4E6AD5CC23F9984B002CA077 /* DentistTimetableAssembly.swift */,
+			);
+			path = "Content Controller";
+			sourceTree = "<group>";
+		};
+		4E7BB5D5239CFCE300393929 = {
+			isa = PBXGroup;
+			children = (
+				4E7BB5E0239CFCE300393929 /* Dental */,
+				4E7BB5DF239CFCE300393929 /* Products */,
+				BF3244BFB3DFE943CCB32A40 /* Pods */,
+				4D467B8DED78FFAF5ED36619 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7BB5DF239CFCE300393929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BB5DE239CFCE300393929 /* Dental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7BB5E0239CFCE300393929 /* Dental */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BB5F5239CFD6700393929 /* App */,
+				4E92BAF3239D007400312795 /* Core */,
+				4E7BB5F7239CFD8900393929 /* BusinessFramework */,
+				4E7BB5F8239CFD9300393929 /* BusinessApplication */,
+				4E7BB5F9239CFDA200393929 /* Presentation */,
+				4E7BB5FA239CFDAD00393929 /* PresentationSupport */,
+			);
+			path = Dental;
+			sourceTree = "<group>";
+		};
+		4E7BB5F5239CFD6700393929 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BB5E1239CFCE300393929 /* AppDelegate.swift */,
+				4EEEC77C24378F9000C40714 /* main.swift */,
+				4E7BB5EF239CFCE800393929 /* Info.plist */,
+				4E7BB5EC239CFCE800393929 /* LaunchScreen.storyboard */,
+				4ECCA718239D4783005A1753 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4E7BB5F7239CFD8900393929 /* BusinessFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4E482EEB240BCE6A00256EF2 /* InternalRepository */,
+				4E357872239D5BD4008969A2 /* ExternalRepository */,
+				4E0D2DE8239D7D58003FBB41 /* RepositoriesFactory.swift */,
+			);
+			path = BusinessFramework;
+			sourceTree = "<group>";
+		};
+		4E7BB5F8239CFD9300393929 /* BusinessApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B441B242780F300CCC03B /* Mapper */,
+				4E4FFE6B2403F12400EF8C0C /* Validators */,
+				4E92CE7923C4F59900AC8318 /* Paginator */,
+				4E480B3223B7EC5400CACCA7 /* URLBuilder */,
+				4E3581B123A52F660093CBD5 /* Entities */,
+				4E0D2DE3239D7C96003FBB41 /* Services */,
+				4E0D2DE6239D7D22003FBB41 /* ServicesFactory.swift */,
+				4EC21E5823EEE8F6002B3787 /* PaginatorFactory.swift */,
+				4E4FFE722403F1AF00EF8C0C /* ValidatorsFactory.swift */,
+			);
+			path = BusinessApplication;
+			sourceTree = "<group>";
+		};
+		4E7BB5F9239CFDA200393929 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA70A239D2711005A1753 /* Splash */,
+				6B837225637575ED2BD7E9E8 /* TabBar */,
+				E46DA98BA46A880A8A877BAC /* News */,
+				625843A1B04C5B932A313650 /* NewsDetails */,
+				64C7069D842DD87424E54D65 /* Branches */,
+				583EB6D2CFC70D858AB3FACA /* Dentists */,
+				F41D3D26B65ECCDE96B16E31 /* DentistDetails */,
+				EDBAF6ACF0E961EFB4151F1A /* TimetablePanel */,
+				93E4829AF13C268C980E4F0C /* AppointmentForm */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4E7BB5FA239CFDAD00393929 /* PresentationSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2D9CC2438C2EB00466079 /* Mocks */,
+				4EADD29F23E5E38700B23D62 /* ViewControllers */,
+				4E311AFA23C37B720098AD15 /* Views */,
+				4E7BB5FB239CFE0400393929 /* Resources */,
+			);
+			path = PresentationSupport;
+			sourceTree = "<group>";
+		};
+		4E7BB5FB239CFE0400393929 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EB846EA241D056A00266F14 /* Fonts */,
+				4E92BAF7239D026C00312795 /* Localizable.strings */,
+				4E7BB5EA239CFCE800393929 /* Assets.xcassets */,
+				4E7BB5FC239CFE0B00393929 /* Generated */,
+				4EE7B48E23C344BB004832F8 /* Constants.swift */,
+				4E311B0523C37E7F0098AD15 /* Colors.swift */,
+				4E311B0923C37F810098AD15 /* Fonts.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E7BB5FC239CFE0B00393929 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4E92BAFC239D038600312795 /* Assets.swift */,
+				4EB846EB241D057C00266F14 /* FontsFamily.swift */,
+				4E92BAFD239D038600312795 /* L10n.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		4E92BAF3239D007400312795 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D2DDA239D627F003FBB41 /* Network */,
+				4EC7D5F823EDE6A200C3A5DF /* Adapters */,
+				4ECCA707239D2492005A1753 /* DI */,
+				4ECCA704239D2437005A1753 /* EntryPoint */,
+				4ECCA700239D2221005A1753 /* Extensions */,
+				4EA5FE3B239D165E005CA9E4 /* Router */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4E92CBE923C4B7FD00AC8318 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EA73038240169DC00F6F6B6 /* Form */,
+				4E8CB4B623C366EE0046EDB5 /* FilledTableView.swift */,
+				4E92CBEA23C4B80A00AC8318 /* ErrorView.swift */,
+				4E6AD5A423F93AA9002CA077 /* CellSeparatorView.swift */,
+				4E6AD5A623F93BE3002CA077 /* TitleDescView.swift */,
+				4E6AD5A823F93D74002CA077 /* CategoriesView.swift */,
+				4E6AD5B123F97484002CA077 /* GradientView.swift */,
+				4E6AD5B723F9839B002CA077 /* TimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E92CBEC23C4B87800AC8318 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4E92CBED23C4B88C00AC8318 /* BorderButton.swift */,
+				4E6AD5AA23F964AC002CA077 /* BackButton.swift */,
+				4E6AD5AF23F97182002CA077 /* FillButton.swift */,
+				4EA7302F24013BE100F6F6B6 /* CloseButton.swift */,
+				4EF33E5F241426D500E544A3 /* RowButton.swift */,
+				4E3B44272427A80C00CCC03B /* CategoryButton.swift */,
+				4E41DA7D2453662D00BA12DA /* ProfileRow.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4E92CE7923C4F59900AC8318 /* Paginator */ = {
+			isa = PBXGroup;
+			children = (
+				4E92CE7A23C4F5A400AC8318 /* PaginatorImp.swift */,
+				4E015BF723C67AB8009444BF /* Paginator.swift */,
+				4E015BF923C67AE0009444BF /* AnyPaginator.swift */,
+			);
+			path = Paginator;
+			sourceTree = "<group>";
+		};
+		4EA175A623CB123C003D915D /* UITextViews */ = {
+			isa = PBXGroup;
+			children = (
+				4EA175A723CB1252003D915D /* ContentTextView.swift */,
+			);
+			path = UITextViews;
+			sourceTree = "<group>";
+		};
+		4EA175B423CB3CA2003D915D /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				4EC21E6723EF5B2D002B3787 /* CollectionReusableView */,
+				4EA175B823CB3F68003D915D /* CollectionViewLayouts */,
+				4EA175B523CB3CC4003D915D /* CollectionViewCell */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		4EA175B523CB3CC4003D915D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4EA175B623CB3CE0003D915D /* GenericCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4EA175B823CB3F68003D915D /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				4EA175B923CB3F92003D915D /* StretchyHeaderLayout.swift */,
+			);
+			path = CollectionViewLayouts;
+			sourceTree = "<group>";
+		};
+		4EA5FE3B239D165E005CA9E4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5FE42239D1A59005CA9E4 /* Utils */,
+				4EA5FE3C239D166E005CA9E4 /* Router.swift */,
+				4EA5FE43239D1A6C005CA9E4 /* RoutingItemsFactory.swift */,
+				4ECCA6FE239D1C61005A1753 /* RoutingItems.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4EA5FE42239D1A59005CA9E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5FE45239D1AAA005CA9E4 /* RoutingItem.swift */,
+				4EA5FE3E239D16D2005CA9E4 /* RootRoutable.swift */,
+				4EA5FE40239D17DD005CA9E4 /* Routable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4EA7302224011E8700F6F6B6 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				4EA7302B2401228500F6F6B6 /* FormTextField.swift */,
+				4EA730292401226800F6F6B6 /* Base */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		4EA730292401226800F6F6B6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4EA7302424011E9C00F6F6B6 /* StyledTextField.swift */,
+				4EA7302324011E9C00F6F6B6 /* MTextField.swift */,
+				4EA7302524011E9D00F6F6B6 /* MTextFieldBox.swift */,
+				4E4FFE78240417FD00EF8C0C /* TFMask.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4EA73038240169DC00F6F6B6 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				4E482EFE240BF42500256EF2 /* FormView */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		4EADD29F23E5E38700B23D62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA70E239D2A01005A1753 /* BaseViewController.swift */,
+				4EADD2A023E5E3BA00B23D62 /* TableViewController.swift */,
+				4E482EE0240BB14F00256EF2 /* BaseNavigationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EB846EA241D056A00266F14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4EC21E6523EF5AF5002B3787 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				4EA175AE23CB3931003D915D /* NewsDetailsContentView.swift */,
+				4EADD2A523E5E7BB00B23D62 /* BranchContentView.swift */,
+				4E1AE2D023EFE58300A17405 /* DentistsContentView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		4EC21E6723EF5B2D002B3787 /* CollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				4EA175B223CB3BB3003D915D /* BlurHeaderView.swift */,
+				4E6AD5B923F984EE002CA077 /* DateCollectionReusableView.swift */,
+			);
+			path = CollectionReusableView;
+			sourceTree = "<group>";
+		};
+		4EC21E6823EF5B62002B3787 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4EC21E6523EF5AF5002B3787 /* ContentViews */,
+				4E311AFC23C37B860098AD15 /* NewsTableViewCell.swift */,
+				4EADD2A223E5E72C00B23D62 /* GenericTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4EC21E6923EF5B77002B3787 /* TableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				4EC21E6A23EF5B90002B3787 /* AddressHeaderView.swift */,
+			);
+			path = TableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		4EC7D5F823EDE6A200C3A5DF /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CB4B823C36F270046EDB5 /* TableViewAdapter.swift */,
+				4EA175BB23CB4A82003D915D /* CollectionViewAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		4ECCA700239D2221005A1753 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D2DDF239D7BF8003FBB41 /* Observable+extension.swift */,
+				4E0D2DE1239D7C1F003FBB41 /* DataRequest+extension.swift */,
+				4ECCA702239D2236005A1753 /* UIViewController+extension.swift */,
+				4E8CB4BA23C370F40046EDB5 /* UITableView+extension.swift */,
+				4E311B0723C37F220098AD15 /* UIColor+extension.swift */,
+				4E311B0D23C394F60098AD15 /* UIView+extension.swift */,
+				4E9F987B23CA2D990089EDE5 /* Action+extension.swift */,
+				4EA175BD23CB4B48003D915D /* UICollectionView+extension.swift */,
+				4E6AD5B523F9805D002CA077 /* DateFormatter+extension.swift */,
+				4E6AD5C523F98FA9002CA077 /* FloatingPanelViewController+extension.swift */,
+				4E4FFE7A240418CE00EF8C0C /* String+extension.swift */,
+				4E3B4420242791D600CCC03B /* DownloadRequest+extension.swift */,
+				4E3B44252427A42300CCC03B /* UIImageView+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4ECCA704239D2437005A1753 /* EntryPoint */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA705239D2449005A1753 /* EntryPoint.swift */,
+			);
+			path = EntryPoint;
+			sourceTree = "<group>";
+		};
+		4ECCA707239D2492005A1753 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA708239D24A1005A1753 /* InfrastructureAssembly.swift */,
+				4ECCA712239D2BC6005A1753 /* DI+Utils.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		4ECCA70A239D2711005A1753 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCA70B239D2721005A1753 /* SplashViewController.swift */,
+				4ECCA710239D2A65005A1753 /* SplashViewModel.swift */,
+				4ECCA714239D2DA9005A1753 /* SplashAssembly.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		4ED2D9C92438AB6100466079 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2D9C72438A86F00466079 /* AppointmentFormPickerViewAdapter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4ED2D9CC2438C2EB00466079 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2D9CF2438C32E00466079 /* news.json */,
+				4EF6F743244B4F4D00376334 /* branches.json */,
+				4EF6F745244B507200376334 /* dentists.json */,
+				4EF6F747244B528B00376334 /* timetable.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4EF6F74B244B535100376334 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				4E482EF0240BCEE100256EF2 /* InternalRepository.swift */,
+				4E482EF4240BD54F00256EF2 /* UserDefaults+InternalRepository.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		4EF6F74D244B536100376334 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6F749244B52F000376334 /* MockRepository.swift */,
+				4EF6F74E244B537400376334 /* MockRepositoryImp.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		4EF6F752244B5C5500376334 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D2DE4239D7CA9003FBB41 /* SplashService.swift */,
+				4E311AF823C3778C0098AD15 /* NewsService.swift */,
+				4EC7D5FB23EDEED400C3A5DF /* ReceptionService.swift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		4EF6F753244B5C6900376334 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6F754244B5C8200376334 /* MockNewsService.swift */,
+				4EF6F756244B5D5000376334 /* MockReceptionService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		583EB6D2CFC70D858AB3FACA /* Dentists */ = {
+			isa = PBXGroup;
+			children = (
+				605DBC3C2F72491B2784BEB4 /* DentistsViewController.swift */,
+				291F88A1E31F7EEC5C29851C /* DentistsViewModel.swift */,
+				41C56C498AE7957F33711D24 /* DentistsAssembly.swift */,
+			);
+			path = Dentists;
+			sourceTree = "<group>";
+		};
+		625843A1B04C5B932A313650 /* NewsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4E9F987D23CA5E6C0089EDE5 /* NewsDetailsView.swift */,
+				0F1A5320DF013EB0337BEEA6 /* NewsDetailsViewController.swift */,
+				E61FB81D87111DD8529BCB36 /* NewsDetailsViewModel.swift */,
+				2D3904EF0EE0E48AD6688E88 /* NewsDetailsAssembly.swift */,
+			);
+			path = NewsDetails;
+			sourceTree = "<group>";
+		};
+		64C7069D842DD87424E54D65 /* Branches */ = {
+			isa = PBXGroup;
+			children = (
+				3431A1E3A3D8EEA2F4D9F4C8 /* BranchesViewController.swift */,
+				1A5E5EC4DEDC5CA0AC7494F7 /* BranchesViewModel.swift */,
+				4DAAA8D9835458E7F32F2E86 /* BranchesAssembly.swift */,
+			);
+			path = Branches;
+			sourceTree = "<group>";
+		};
+		6B837225637575ED2BD7E9E8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E56FA9624535AB300E793BC /* TabBarViewController.swift */,
+				0311B98452992CA7EE01438B /* TabBarViewModel.swift */,
+				4E56FA89245358C600E793BC /* TabBarAssembly.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		93E4829AF13C268C980E4F0C /* AppointmentForm */ = {
+			isa = PBXGroup;
+			children = (
+				4ED2D9C92438AB6100466079 /* Helpers */,
+				A9F9F33AC1548DD1C32A8FEE /* AppointmentFormView.swift */,
+				DF2D5ED6DF9C7856DF4EB32F /* AppointmentFormViewController.swift */,
+				6747D0FA1DBA22F29EBE57D0 /* AppointmentFormViewModel.swift */,
+				1AB7E9D31BC235FCCF9D6B0A /* AppointmentFormAssembly.swift */,
+			);
+			path = AppointmentForm;
+			sourceTree = "<group>";
+		};
+		BF3244BFB3DFE943CCB32A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D735152F1C6D21CA451F243 /* Pods-Dental.debug.xcconfig */,
+				D570AB796828C2445A38BF7F /* Pods-Dental.release.xcconfig */,
+				2E93A37CEE6157E7197A01ED /* Pods-Dental.mock.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E46DA98BA46A880A8A877BAC /* News */ = {
+			isa = PBXGroup;
+			children = (
+				70AC56114E345F96576AAB41 /* NewsAssembly.swift */,
+				B32F00619C947F598AC91128 /* NewsViewController.swift */,
+				6405996621D03D023A8B13CB /* NewsViewModel.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		EDBAF6ACF0E961EFB4151F1A /* TimetablePanel */ = {
+			isa = PBXGroup;
+			children = (
+				4E6AD5C923F99306002CA077 /* Content Controller */,
+				4E6AD5CA23F99443002CA077 /* TimetablePanelController.swift */,
+				4E6AD5D023F9A9A3002CA077 /* TimetablePanelLayout.swift */,
+				4E6AD5C723F992FF002CA077 /* TimetablePanelAssembly.swift */,
+			);
+			path = TimetablePanel;
+			sourceTree = "<group>";
+		};
+		F41D3D26B65ECCDE96B16E31 /* DentistDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C0D05BAB7A2D473C87EE2F0F /* DentistDetailsView.swift */,
+				3219F2E1D1C2C695D3E4B392 /* DentistDetailsViewController.swift */,
+				547199574A49CED26ADDA4B1 /* DentistDetailsViewModel.swift */,
+				308B5F472EA0EB68A2895ECA /* DentistDetailsAssembly.swift */,
+			);
+			path = DentistDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7BB5DD239CFCE300393929 /* Dental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7BB5F2239CFCE800393929 /* Build configuration list for PBXNativeTarget "Dental" */;
+			buildPhases = (
+				1F3EA76BD357B3AB8A18EB60 /* [CP] Check Pods Manifest.lock */,
+				4E292D9924346E4500884688 /* SwiftLint */,
+				4E92BAF4239D00BA00312795 /* SwiftGen */,
+				4E7BB5DA239CFCE300393929 /* Sources */,
+				4E7BB5DB239CFCE300393929 /* Frameworks */,
+				4E7BB5DC239CFCE300393929 /* Resources */,
+				B002535943F47C9185AFEA5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dental;
+			productName = Dental;
+			productReference = 4E7BB5DE239CFCE300393929 /* Dental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7BB5D6239CFCE300393929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Igor Sorokin";
+				TargetAttributes = {
+					4E7BB5DD239CFCE300393929 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E7BB5D9239CFCE300393929 /* Build configuration list for PBXProject "Dental" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7BB5D5239CFCE300393929;
+			productRefGroup = 4E7BB5DF239CFCE300393929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7BB5DD239CFCE300393929 /* Dental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7BB5DC239CFCE300393929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF6F744244B4F4D00376334 /* branches.json in Resources */,
+				4ED2D9D02438C32F00466079 /* news.json in Resources */,
+				4E92BAF8239D026C00312795 /* Localizable.strings in Resources */,
+				4ECCA719239D4783005A1753 /* Main.storyboard in Resources */,
+				4EF6F746244B507200376334 /* dentists.json in Resources */,
+				4EF6F748244B528B00376334 /* timetable.json in Resources */,
+				4E7BB5EE239CFCE800393929 /* LaunchScreen.storyboard in Resources */,
+				4E7BB5EB239CFCE800393929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3EA76BD357B3AB8A18EB60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dental-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E292D9924346E4500884688 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		4E92BAF4239D00BA00312795 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"$SRCROOT/Dental/PresentationSupport/SwiftGenConf.sh\"\n";
+		};
+		B002535943F47C9185AFEA5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental/Pods-Dental-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dental/Pods-Dental-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dental/Pods-Dental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7BB5DA239CFCE300393929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E311AF923C3778C0098AD15 /* NewsService.swift in Sources */,
+				4E92CE7823C4DFFC00AC8318 /* Page.swift in Sources */,
+				4E0D2DE7239D7D22003FBB41 /* ServicesFactory.swift in Sources */,
+				4EA175AF23CB3931003D915D /* NewsDetailsContentView.swift in Sources */,
+				4E92BB00239D038600312795 /* L10n.swift in Sources */,
+				4E4FFE732403F1AF00EF8C0C /* ValidatorsFactory.swift in Sources */,
+				4E3581B323A52F770093CBD5 /* SplashModel.swift in Sources */,
+				4ECCA709239D24A1005A1753 /* InfrastructureAssembly.swift in Sources */,
+				4EC21E6B23EF5B90002B3787 /* AddressHeaderView.swift in Sources */,
+				4EA5FE44239D1A6C005CA9E4 /* RoutingItemsFactory.swift in Sources */,
+				4E0D2DE2239D7C1F003FBB41 /* DataRequest+extension.swift in Sources */,
+				4E6AD5D123F9A9A3002CA077 /* TimetablePanelLayout.swift in Sources */,
+				4EE7B48F23C344BB004832F8 /* Constants.swift in Sources */,
+				4E4FFE6D2403F13F00EF8C0C /* Validator.swift in Sources */,
+				4E482EF5240BD54F00256EF2 /* UserDefaults+InternalRepository.swift in Sources */,
+				4EADD2A123E5E3BA00B23D62 /* TableViewController.swift in Sources */,
+				4E8CB4B923C36F270046EDB5 /* TableViewAdapter.swift in Sources */,
+				4EF33E60241426D500E544A3 /* RowButton.swift in Sources */,
+				4EA5FE46239D1AAA005CA9E4 /* RoutingItem.swift in Sources */,
+				4EA5FE3F239D16D2005CA9E4 /* RootRoutable.swift in Sources */,
+				4E8CB4BB23C370F40046EDB5 /* UITableView+extension.swift in Sources */,
+				4E7BB5E2239CFCE300393929 /* AppDelegate.swift in Sources */,
+				4EC7D5FC23EDEED400C3A5DF /* ReceptionService.swift in Sources */,
+				4E8CB4B723C366EE0046EDB5 /* FilledTableView.swift in Sources */,
+				4ECCA6FF239D1C61005A1753 /* RoutingItems.swift in Sources */,
+				4EA175B723CB3CE0003D915D /* GenericCollectionViewCell.swift in Sources */,
+				4E311B0A23C37F810098AD15 /* Fonts.swift in Sources */,
+				4EA175BE23CB4B48003D915D /* UICollectionView+extension.swift in Sources */,
+				4E3B441D2427810100CCC03B /* Mapper.swift in Sources */,
+				4E0D2DE5239D7CA9003FBB41 /* SplashService.swift in Sources */,
+				4E6AD5AB23F964AC002CA077 /* BackButton.swift in Sources */,
+				4E6AD5B623F9805D002CA077 /* DateFormatter+extension.swift in Sources */,
+				4E311AFD23C37B860098AD15 /* NewsTableViewCell.swift in Sources */,
+				4E6AD5CD23F9984B002CA077 /* DentistTimetableAssembly.swift in Sources */,
+				4E480B3423B7EC6200CACCA7 /* URLBuilder.swift in Sources */,
+				4E0D2DE9239D7D58003FBB41 /* RepositoriesFactory.swift in Sources */,
+				4E6AD5C623F98FA9002CA077 /* FloatingPanelViewController+extension.swift in Sources */,
+				4EA175BC23CB4A82003D915D /* CollectionViewAdapter.swift in Sources */,
+				4EB846EC241D057C00266F14 /* FontsFamily.swift in Sources */,
+				4ECCA706239D2449005A1753 /* EntryPoint.swift in Sources */,
+				4E56FA9724535AB300E793BC /* TabBarViewController.swift in Sources */,
+				4EC7D5FA23EDEE3C00C3A5DF /* Branch.swift in Sources */,
+				4E311B0023C37DA70098AD15 /* SLabel.swift in Sources */,
+				4EEEC77D24378F9000C40714 /* main.swift in Sources */,
+				4E357871239D5BCE008969A2 /* ExternalRepositoryImp.swift in Sources */,
+				4ECCA70C239D2721005A1753 /* SplashViewController.swift in Sources */,
+				4EA175B323CB3BB3003D915D /* BlurHeaderView.swift in Sources */,
+				4E92CBEE23C4B88C00AC8318 /* BorderButton.swift in Sources */,
+				4EA175BA23CB3F92003D915D /* StretchyHeaderLayout.swift in Sources */,
+				4E0D2DE0239D7BF8003FBB41 /* Observable+extension.swift in Sources */,
+				4E015BF823C67AB8009444BF /* Paginator.swift in Sources */,
+				4ECCA711239D2A65005A1753 /* SplashViewModel.swift in Sources */,
+				4EADD2A323E5E72C00B23D62 /* GenericTableViewCell.swift in Sources */,
+				4E92CE7B23C4F5A400AC8318 /* PaginatorImp.swift in Sources */,
+				4E4FFE6F2403F16E00EF8C0C /* EmptyValidator.swift in Sources */,
+				4EF6F74A244B52F000376334 /* MockRepository.swift in Sources */,
+				4EA7303024013BE100F6F6B6 /* CloseButton.swift in Sources */,
+				4EA7302724011E9D00F6F6B6 /* StyledTextField.swift in Sources */,
+				4E311B0423C37E350098AD15 /* TextStyle.swift in Sources */,
+				4EC21E5923EEE8F6002B3787 /* PaginatorFactory.swift in Sources */,
+				4E311B0E23C394F60098AD15 /* UIView+extension.swift in Sources */,
+				4E92CBEB23C4B80A00AC8318 /* ErrorView.swift in Sources */,
+				4E6AD5A723F93BE3002CA077 /* TitleDescView.swift in Sources */,
+				4ECCA703239D2236005A1753 /* UIViewController+extension.swift in Sources */,
+				4E0D2DDE239D691C003FBB41 /* ApiError.swift in Sources */,
+				4E311B0623C37E7F0098AD15 /* Colors.swift in Sources */,
+				4EA7303A240169EB00F6F6B6 /* FormError.swift in Sources */,
+				4EC21E5D23EF2C96002B3787 /* AddressDentists.swift in Sources */,
+				4EA175A823CB1252003D915D /* ContentTextView.swift in Sources */,
+				4E41DA7E2453662D00BA12DA /* ProfileRow.swift in Sources */,
+				4EA7302C2401228500F6F6B6 /* FormTextField.swift in Sources */,
+				4EA5FE3D239D166E005CA9E4 /* Router.swift in Sources */,
+				4ECCA715239D2DA9005A1753 /* SplashAssembly.swift in Sources */,
+				4E482EEF240BCEA100256EF2 /* ExternalRepository.swift in Sources */,
+				4E482EE1240BB14F00256EF2 /* BaseNavigationController.swift in Sources */,
+				4E6AD5B823F9839B002CA077 /* TimeView.swift in Sources */,
+				4E6AD5BA23F984EE002CA077 /* DateCollectionReusableView.swift in Sources */,
+				4E015BFA23C67AE0009444BF /* AnyPaginator.swift in Sources */,
+				4ECCA70F239D2A01005A1753 /* BaseViewController.swift in Sources */,
+				4EADD2A623E5E7BB00B23D62 /* BranchContentView.swift in Sources */,
+				4E4FFE712403F19200EF8C0C /* PhoneValidator.swift in Sources */,
+				4E1AE2D123EFE58300A17405 /* DentistsContentView.swift in Sources */,
+				4EC21E5F23EF2CBF002B3787 /* Dentist.swift in Sources */,
+				4E6AD5CB23F99443002CA077 /* TimetablePanelController.swift in Sources */,
+				4E6AD5CF23F99FE2002CA077 /* ErrorManager.swift in Sources */,
+				4E311B0823C37F220098AD15 /* UIColor+extension.swift in Sources */,
+				4E3B44262427A42300CCC03B /* UIImageView+extension.swift in Sources */,
+				4EF33E582413DE4500E544A3 /* NameValidator.swift in Sources */,
+				4ECCA713239D2BC6005A1753 /* DI+Utils.swift in Sources */,
+				4EA175AA23CB1C4D003D915D /* LabelStyle.swift in Sources */,
+				4EA7302824011E9D00F6F6B6 /* MTextFieldBox.swift in Sources */,
+				4EA7302E2401330E00F6F6B6 /* FormView.swift in Sources */,
+				4E311AF723C375B20098AD15 /* News.swift in Sources */,
+				4E92BAFF239D038600312795 /* Assets.swift in Sources */,
+				4E9F987C23CA2D990089EDE5 /* Action+extension.swift in Sources */,
+				4EF6F74F244B537400376334 /* MockRepositoryImp.swift in Sources */,
+				4E3B4421242791D600CCC03B /* DownloadRequest+extension.swift in Sources */,
+				4E3B441F2427810B00CCC03B /* MapperImp.swift in Sources */,
+				4E6AD5B423F97BC6002CA077 /* DentistTimetable.swift in Sources */,
+				4E66B95123D4A594007C330B /* CellView.swift in Sources */,
+				4E56FA8A245358C600E793BC /* TabBarAssembly.swift in Sources */,
+				4EA5FE41239D17DD005CA9E4 /* Routable.swift in Sources */,
+				9BF7068508DBB56409C4778C /* NewsViewController.swift in Sources */,
+				51BE8CD8CF4730B4F2107994 /* NewsViewModel.swift in Sources */,
+				4E6AD5A523F93AA9002CA077 /* CellSeparatorView.swift in Sources */,
+				D9ADB7ED09732EBBCBED747E /* NewsAssembly.swift in Sources */,
+				FB755F6EE04161FFDFC22E15 /* NewsDetailsViewController.swift in Sources */,
+				4E482EF1240BCEE100256EF2 /* InternalRepository.swift in Sources */,
+				5D08CE451D9194DE767C06AE /* NewsDetailsViewModel.swift in Sources */,
+				4ED2D9C82438A86F00466079 /* AppointmentFormPickerViewAdapter.swift in Sources */,
+				4E9F987E23CA5E6C0089EDE5 /* NewsDetailsView.swift in Sources */,
+				4E6AD5A923F93D74002CA077 /* CategoriesView.swift in Sources */,
+				FCCF66DDF00FBB0DF670CC0F /* NewsDetailsAssembly.swift in Sources */,
+				FF48961FDDA006A116EEE5A5 /* BranchesViewController.swift in Sources */,
+				4EA7302624011E9D00F6F6B6 /* MTextField.swift in Sources */,
+				4E4FFE79240417FD00EF8C0C /* TFMask.swift in Sources */,
+				AF1078995CFDF6012EAC4FF9 /* BranchesViewModel.swift in Sources */,
+				1CB53A56AD5A8E92653A7FDB /* BranchesAssembly.swift in Sources */,
+				0DEBE857251B61141B9C815C /* DentistsViewController.swift in Sources */,
+				2F5773F1D3BA61A08F0B33CD /* DentistsViewModel.swift in Sources */,
+				0CA898BBFC862546C1565306 /* DentistsAssembly.swift in Sources */,
+				4E6AD5B023F97182002CA077 /* FillButton.swift in Sources */,
+				59AAC2F9D24CDAFEB0B3A075 /* DentistDetailsViewController.swift in Sources */,
+				5590EBE060EDF475E8A7F89F /* DentistDetailsViewModel.swift in Sources */,
+				4E4FFE7B240418CE00EF8C0C /* String+extension.swift in Sources */,
+				4E6AD5B223F97484002CA077 /* GradientView.swift in Sources */,
+				4E6AD5C823F992FF002CA077 /* TimetablePanelAssembly.swift in Sources */,
+				0A09AC8D130248B85B83D603 /* DentistDetailsAssembly.swift in Sources */,
+				E1F1E1A286C1940D0CE42A5B /* DentistDetailsView.swift in Sources */,
+				AA2C8C4233BA8D1D4196438F /* DentistTimetableViewController.swift in Sources */,
+				2EFC207321FD41C290B038CE /* DentistTimetableViewModel.swift in Sources */,
+				CBE66BC59CCF01AA79BD63FD /* DentistTimetableView.swift in Sources */,
+				4E3B44282427A80C00CCC03B /* CategoryButton.swift in Sources */,
+				CB93FD515E9172569FA9D995 /* AppointmentFormViewController.swift in Sources */,
+				4EF6F755244B5C8200376334 /* MockNewsService.swift in Sources */,
+				7FC512666C4D39C255922502 /* AppointmentFormViewModel.swift in Sources */,
+				AF04FD72B46D189B177B3CFA /* AppointmentFormAssembly.swift in Sources */,
+				09490617F0D8B2F5EBFFE584 /* AppointmentFormView.swift in Sources */,
+				06032BA816EF3F4BED7982DC /* TabBarViewModel.swift in Sources */,
+				4EF33E5A2413E24500E544A3 /* PasswordValidator.swift in Sources */,
+				4EF6F757244B5D5000376334 /* MockReceptionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E7BB5EC239CFCE800393929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7BB5ED239CFCE800393929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E7BB5F0239CFCE800393929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E7BB5F1239CFCE800393929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7BB5F3239CFCE800393929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D735152F1C6D21CA451F243 /* Pods-Dental.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2288R6Q4B;
+				IBSC_MODULE = "$(PRODUCT_MODULE_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/Dental/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorsorokin.Dental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E7BB5F4239CFCE800393929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D570AB796828C2445A38BF7F /* Pods-Dental.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2288R6Q4B;
+				IBSC_MODULE = "$(PRODUCT_MODULE_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/Dental/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorsorokin.Dental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4ED2D9CA2438C1DD00466079 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Mock;
+		};
+		4ED2D9CB2438C1DD00466079 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E93A37CEE6157E7197A01ED /* Pods-Dental.mock.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2288R6Q4B;
+				IBSC_MODULE = "$(PRODUCT_MODULE_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/Dental/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorsorokin.Dental;
+				PRODUCT_NAME = "$(TARGET_NAME)-Mock";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MOCK;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Mock;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7BB5D9239CFCE300393929 /* Build configuration list for PBXProject "Dental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7BB5F0239CFCE800393929 /* Debug */,
+				4ED2D9CA2438C1DD00466079 /* Mock */,
+				4E7BB5F1239CFCE800393929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7BB5F2239CFCE800393929 /* Build configuration list for PBXNativeTarget "Dental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7BB5F3239CFCE800393929 /* Debug */,
+				4ED2D9CB2438C1DD00466079 /* Mock */,
+				4E7BB5F4239CFCE800393929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7BB5D6239CFCE300393929 /* Project object */;
+}

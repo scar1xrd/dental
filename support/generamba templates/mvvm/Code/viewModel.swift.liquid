@@ -1,0 +1,33 @@
+//
+//  {{ module_info.file_name }}
+//  Dental
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import RxSwift
+import RxCocoa
+import Action
+
+protocol {{ module_info.name }}ViewModel: ViewModel {
+    var title: Driver<String> { get }
+}
+
+class {{ module_info.name }}ViewModelImp: {{ module_info.name }}ViewModel {
+    private let disposeBag: DisposeBag = .init()
+    private let router: Router
+    
+    // MARK: Data
+    var title: Driver<String> = .just("{{ module_info.name }} Title")
+    
+    // MARK: Actions
+    
+    init(router: Router) {
+        self.router = router
+    }
+    
+    deinit {
+        print("DEINIT \(self)")
+    }
+}

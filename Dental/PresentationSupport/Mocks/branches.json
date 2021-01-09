@@ -1,0 +1,38 @@
+[
+  {
+    "branchName" : "Терапевтическая стоматология",
+    "srcImage" : "https://i.ibb.co/KmT4Z8V/karies.png",
+    "description" : "Лечение кариеса и его осложнений"
+  },
+  {
+    "branchName" : "Хирургическая стоматология",
+    "srcImage" : "https://i.ibb.co/P4NDY89/hirurg.png",
+    "description" : "Удаление и лечение зубов"
+  },
+  {
+    "branchName" : "Ортопедия",
+    "srcImage" : "https://i.ibb.co/fQ1mDDQ/orthopedics.png",
+    "description" : "Изготовление и установка керамических и металических зубных протезов"
+  },
+  {
+    "branchName" : "Имплантация",
+    "srcImage" : "https://i.ibb.co/Kw4L4D5/implantation.png",
+    "description" : "Установка несъёмных зубных имплантатов"
+  },
+  {
+    "branchName" : "Ортодонтия",
+    "srcImage" : "https://i.ibb.co/zHpkThH/ortodont.png",
+    "description" : "Исправление прикуса и установка брекетов"
+  },
+  {
+    "branchName" : "Гигиена полости рта",
+    "srcImage" : "https://i.ibb.co/Fz5zGjB/gigiena.png",
+    "description" : "Профессиональная чистка и отбеливание зубов"
+  },
+  {
+    "branchName" : "Прицельный снимок зубов",
+    "srcImage" : "https://i.ibb.co/g4Zs5gT/snimok.png",
+    "description" : "Рентгенологическая диагностика зубов"
+  }
+]
+
